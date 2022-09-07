@@ -6,7 +6,7 @@ export default function NavBar() {
         <div>
             <nav className="navbar navbar-expand-lg fixed-top">
                 <div className="container-fluid">
-                    <a className="navbar-brand text-light" href="https://chasecmathis.github.io/pokedex-web-app">
+                    <a className="navbar-brand text-light" href="https://chasecmathis.github.io/pokedex-web-app/">
                         Pokedex
                     </a>
                 </div>
