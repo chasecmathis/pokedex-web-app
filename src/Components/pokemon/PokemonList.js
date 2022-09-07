@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
 export default function PokemonList() {
-    const [url] = useState('https://pokeapi.co/api/v2/pokemon?limit=151&offset=0')
+    const [url] = useState('https://pokeapi.co/api/v2/pokemon?limit=386&offset=0')
     const [pokemon, setPokemon] = useState(null);
     const [input, setInput] = useState("");
     const [loading, setLoading] = useState(true);
