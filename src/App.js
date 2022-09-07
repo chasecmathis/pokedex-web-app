@@ -7,7 +7,6 @@ import './App.css';
 import NavBar from './Components/layout/nav/NavBar';
 import Dashboard from './Components/layout/Dashboard';
 import Pokemon from './Components/pokemon/Pokemon';
-// import backgroundImage from './pattern3.jpg';
 
 function App() {
   return (

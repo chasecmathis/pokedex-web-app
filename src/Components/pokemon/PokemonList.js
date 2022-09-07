@@ -21,7 +21,12 @@ export default function PokemonList() {
 
     }, [url]);
 
-    if (loading) return "Loading";
+    if (loading) return (
+        <div className="text-center">
+            <div className="spinner-border" style={{width: '3rem', height: '3rem', marginTop: '10%'}} role="status">
+                <span className="visually-hidden">Loading...</span>
+            </div>
+        </div>);
 
     return (
         <div>
